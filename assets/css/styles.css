@@ -1,0 +1,39 @@
+body {
+  background-color: #0020f4;
+}
+/* this is header */
+header {
+  max-width: 1475px;
+  width: 100%;
+  padding: 27px 36px;
+  margin: auto;
+}
+.logo {
+  width: 115px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+}
+header li a {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 43px;
+}
+.contact {
+  background-color: #ffffff;
+  width: 160px;
+  height: 55px;
+  /* ვიიციიი height არ უნდა გამოვიყენოთ მაგრამ სხვანაირად ვერ გავაკეთე სწორად */
+  border-radius: 28px;
+}
+.contact a {
+  color: #171717;
+}
