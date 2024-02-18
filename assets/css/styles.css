@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "liontype";
+  src: url(Linotype-HelveticaNeueLTGEO75Bold.ttf);
+}
+@font-face {
+  font-family: "liontype_light";
+  src: url(HELVETICANEUELTGEO-45LIGHTS.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   background-color: #0020f4;
+  font-family: "liontype_light";
 }
 /* this is header */
 header {
@@ -36,26 +52,85 @@ header li a {
 }
 .contact a {
   color: #171717;
-  position: absolute;  
+  position: absolute;
   margin-top: 20px;
+  font-family: 'liontype';
 }
+
 .big_photo {
   position: absolute;
   top: 215px;
-  left: 940px;
-  width: 978px;
-  height: 800px;
-  background: transparent url('img/Rectangle 1.png') 0% 0% no-repeat padding-box;
+  left: 972px;
+  width: 948px;
+
+  
   border-radius: 15px;
-  opacity: 1;
 }
 .more_little_photo {
   position: absolute;
   top: 280px;
-  left: 208px;
+  left: 240px;
   width: 707px;
-  height: 597px;
-  background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+  
+}
+
+.saitis_tetri_nawili {
+  width: 100%;
+  height: 1500px;
+  margin-top: 963px;
+  background-color: white;
+}
+.chvens_shesaxeb_textebis_divi {
+  position: absolute;
+  top: 1260px;
+  left: 240px;
+  width: 463px;
+  height: 604px;
+  
+}
+.cvens_shesaxeb_texsti {
+  font-weight: 600;
+  width: 197px;
+  font-size: 29px;
+  font-family: "liontype";
+}
+.cvens_shesaxeb_didi_texsti {
+  padding-top: 98px;
+  width: 463px;
+  height: 385px;
+  line-height: 20px;
+  
+}
+
+.cvens_shesaxeb_didi_texsti_nawili_2 {
+  width: 463px;
+  height: 99px;
+  margin-top: 109px;
+  line-height: 20px;
+}
+
+.lurji_texsti {
+  font-weight: normal;
+  color: #0A22F4;
+}
+
+.fotos_lurji_foni {
+  position: absolute;
+  top: 1490px;
+  left: 850px;
+  width: 707px;
+  height: 707px;
+  background-color: #0A22F4;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.chvens_shesaxeb_foto {
+  position: absolute;
+  top: 1480px;
+  left: 840px;
+  width: 707px;
+  height: 707px;
   border-radius: 15px;
   opacity: 1;
 }
@@ -65,22 +140,6 @@ header li a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* აქ მოშორდა scropp bar ი საიტს */
 ::-webkit-scrollbar {
-  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+  display: none;
 }
-/* აქ მოშორდა scropp bar ი საიტს */
