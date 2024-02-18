@@ -31,7 +31,7 @@ header li a {
   background-color: #ffffff;
   width: 160px;
   height: 55px;
-  /* ვიიციიი height არ უნდა გამოვიყენოთ მაგრამ სხვანაირად ვერ გავაკეთე სწორად */
+
   border-radius: 28px;
 }
 .contact a {
@@ -39,14 +39,17 @@ header li a {
   position: absolute;
   margin-top: 20px;
 }
+section {
+  max-width: 100%;
+}
 
 .big_photo {
   position: absolute;
   top: 215px;
   left: 940px;
   width: 978px;
-  height: 800px;
-  background: transparent url('img/Rectangle 1.png') 0% 0% no-repeat padding-box;
+  max-width: 100%;
+
   border-radius: 15px;
   opacity: 1;
 }
@@ -55,8 +58,13 @@ header li a {
   top: 280px;
   left: 208px;
   width: 707px;
-  height: 597px;
-  background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+  max-width: 100%;
+
   border-radius: 15px;
   opacity: 1;
+}
+.circle {
+  background-color: white;
+  width: 40px;
+  border-radius: 50%;
 }
