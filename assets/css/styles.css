@@ -1,12 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  
+@font-face {
+  font-family: "liontype";
+  src: url(Linotype-HelveticaNeueLTGEO75Bold.ttf);
 }
-
-
+@font-face {
+  font-family: "liontype_light";
+  src: url(HELVETICANEUELTGEO-45LIGHTS.ttf);
+}
 body {
   background-color: #0020f4;
+  font-family: "liontype_light";
 }
 /* this is header */
 header {
@@ -38,38 +40,87 @@ header li a {
   background-color: #ffffff;
   width: 160px;
   height: 55px;
-  /* ვიიციიი height არ უნდა გამოვიყენოთ მაგრამ სხვანაირად ვერ გავაკეთე სწორად */
   border-radius: 28px;
 }
 .contact a {
   color: #171717;
   position: absolute;
   margin-top: 20px;
+  font-family: "liontype";
 }
 
 .big_photo {
   position: absolute;
-  top: 212px;
-  left: 1185px;
+  top: 215px;
+  left: 972px;
   width: 948px;
-  
   border-radius: 15px;
 }
 .more_little_photo {
   position: absolute;
   top: 280px;
-  left: 454px;
+  left: 240px;
   width: 707px;
-  
 }
 
+.saitis_tetri_nawili {
+  width: 100%;
+  height: 1500px;
+  margin-top: 963px;
+  background-color: white;
+}
+.chvens_shesaxeb_textebis_divi {
+  position: absolute;
+  top: 1260px;
+  left: 240px;
+  width: 463px;
+  height: 604px;
+}
+.cvens_shesaxeb_texsti {
+  font-weight: 600;
+  width: 197px;
+  font-size: 29px;
+  font-family: "liontype";
+}
+.cvens_shesaxeb_didi_texsti {
+  padding-top: 98px;
+  width: 463px;
+  height: 385px;
+  line-height: 20px;
+}
 
+.cvens_shesaxeb_didi_texsti_nawili_2 {
+  width: 463px;
+  height: 99px;
+  margin-top: 109px;
+  line-height: 20px;
+}
 
+.lurji_texsti {
+  font-weight: normal;
+  color: #0a22f4;
+}
 
+.fotos_lurji_foni {
+  position: absolute;
+  top: 1490px;
+  left: 850px;
+  width: 707px;
+  height: 707px;
+  background-color: #0a22f4;
+  border-radius: 15px;
+  opacity: 1;
+}
 
-
-
-
+.chvens_shesaxeb_foto {
+  position: absolute;
+  top: 1480px;
+  left: 840px;
+  width: 707px;
+  height: 707px;
+  border-radius: 15px;
+  opacity: 1;
+}
 
 ::-webkit-scrollbar {
   display: none;
