@@ -39,3 +39,24 @@ header li a {
   position: absolute;
   margin-top: 20px;
 }
+
+.big_photo {
+  position: absolute;
+  top: 215px;
+  left: 940px;
+  width: 978px;
+  height: 800px;
+  background: transparent url('img/Rectangle 1.png') 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+}
+.more_little_photo {
+  position: absolute;
+  top: 280px;
+  left: 208px;
+  width: 707px;
+  height: 597px;
+  background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+}
