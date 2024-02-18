@@ -1,9 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
-
 
 body {
   background-color: #0020f4;
@@ -38,7 +36,7 @@ header li a {
   background-color: #ffffff;
   width: 160px;
   height: 55px;
-
+  /* ვიიციიი height არ უნდა გამოვიყენოთ მაგრამ სხვანაირად ვერ გავაკეთე სწორად */
   border-radius: 28px;
 }
 .contact a {
@@ -46,24 +44,13 @@ header li a {
   position: absolute;
   margin-top: 20px;
 }
-section {
-  max-width: 100%;
-}
 
 .big_photo {
   position: absolute;
-<<<<<<< HEAD
-  top: 215px;
-  left: 940px;
-  width: 978px;
-  max-width: 100%;
-
-=======
   top: 212px;
   left: 1185px;
   width: 948px;
-  
->>>>>>> cb098c3f27ea5cc8fdbc47d39a2a3b31ee5edf40
+
   border-radius: 15px;
 }
 .more_little_photo {
@@ -71,29 +58,8 @@ section {
   top: 280px;
   left: 454px;
   width: 707px;
-<<<<<<< HEAD
-  max-width: 100%;
-
-  border-radius: 15px;
-  opacity: 1;
-=======
-  
 }
-
-
-
-
-
-
-
-
 
 ::-webkit-scrollbar {
   display: none;
->>>>>>> cb098c3f27ea5cc8fdbc47d39a2a3b31ee5edf40
-}
-.circle {
-  background-color: white;
-  width: 40px;
-  border-radius: 50%;
 }
