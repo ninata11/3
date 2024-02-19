@@ -121,6 +121,31 @@ header li a {
   border-radius: 15px;
   opacity: 1;
 }
+.services {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+}
+.services img {
+  width: 707px;
+  float: left;
+  margin: 20px;
+}
+.services h2 {
+  font-size: 32px;
+  color: #171717;
+  font-weight: bold;
+  font-family: "liontype";
+}
+.text {
+  font-size: 16px;
+  color: #171717;
+  margin-top: 60px;
+  margin-left: 138px;
+  font-family: "liontype";
+  width: 463px;
+  display: inline-block;
+}
 
 ::-webkit-scrollbar {
   display: none;
