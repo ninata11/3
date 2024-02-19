@@ -130,20 +130,28 @@ header li a {
   width: 707px;
   float: left;
   margin: 20px;
+  margin-top: 200px;
+  margin-left: 250px;
+  border-top: 15px solid blue;
+  border-left: 15px solid blue;
+  border-radius: 15px;
 }
 .services h2 {
   font-size: 32px;
   color: #171717;
   font-weight: bold;
   font-family: "liontype";
+  text-align: left;
+  padding-left: 1095px;
 }
 .text {
   font-size: 16px;
   color: #171717;
   margin-top: 60px;
-  margin-left: 138px;
+  margin-left: 118px;
   font-family: "liontype";
   width: 463px;
+
   display: inline-block;
 }
 
