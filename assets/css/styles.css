@@ -160,7 +160,7 @@ header li a {
   display: none;
 }
 
-div h1 {
+div h2 {
   color: #ffffff;
   padding-top: 70px;
   padding-bottom: 80px;
@@ -190,8 +190,8 @@ article p {
   position: absolute;
 }
 .conteiner {
-  max-width: 1920px;
-  width: 100%;
+  max-width: 100%;
+  width: 1920px;
   padding: 0 20px;
   margin: auto;
   display: flex;
