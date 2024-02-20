@@ -1,11 +1,12 @@
 @font-face {
   font-family: "liontype";
-  src: url(Linotype-HelveticaNeueLTGEO75Bold.ttf);
+  src: url(../fonts/HELVETICANEUELTGEO-45LIGHTS.ttf);
 }
 @font-face {
   font-family: "liontype_light";
-  src: url(HELVETICANEUELTGEO-45LIGHTS.ttf);
+  src: url(../fonts/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf);
 }
+
 body {
   background-color: #0020f4;
   font-family: "liontype_light";
@@ -159,25 +160,22 @@ header li a {
   display: none;
 }
 
-div h1{
+div h1 {
   color: #ffffff;
   padding-top: 70px;
   padding-bottom: 80px;
   padding-left: 240px;
 }
 
-
-.lastBLUE{
+.lastBLUE {
   background-color: rgba(0, 32, 244, 1);
-  width: 100%;
-  
+  max-width: 100%;
 }
 
-
 article {
-	display: inline-block;
-	width: 25%;
-	margin: 0 5px;
+  display: inline-block;
+  width: 25%;
+  margin: 0 5px;
   position: relative;
 }
 
@@ -188,11 +186,10 @@ article p {
   border-radius: 15px;
   bottom: 2.5%;
   left: 0;
-  width: 100%;  
+  width: 100%;
   position: absolute;
-  
 }
-.conteiner{
+.conteiner {
   max-width: 1920px;
   width: 100%;
   padding: 0 20px;
@@ -200,42 +197,16 @@ article p {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.section{
+.section {
   background-color: #ffffff;
   width: 100%;
-  
 }
 
-.bolo{
-padding-top: 70px;
-text-align: right;
-padding-right: 256px;
-padding-bottom: 100px;
-
-
+.bolo {
+  padding-top: 70px;
+  text-align: right;
+  padding-right: 256px;
+  padding-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
